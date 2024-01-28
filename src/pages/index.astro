@@ -23,39 +23,59 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Kimuras</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS Feed</span>
-      </a>
+      <h1>Why you Should Practice Jiu Jitsu</h1>
+      <p>
+        Sure, learning to pin someone, isolate their limbs and snap them one by
+        one is super cool. It’s also really cool knowing you have the power to
+        strangle another man unconscious with your bare hands.
+      </p>
+
+      <br />
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        More importantly however, jiu jitsu teaches you how to <span
+          class="italic">escape</span
+        > bad positions. Hélio Gracie, one of the founders of jiu jitsu has been
+        quoted as saying jiu jitsu is about <span class="italic">survival</span
+        >.
       </p>
+
+      <br />
+
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        Sometimes all we can do is survive. Sometimes surviving five minutes can
+        determine whether we live or die. Whether someone walks by and is able
+        to help us.
       </p>
+
+      <br />
+
+      <p>
+        So far, we’ve discussed why you should practice jiu jitsu from both an
+        offensive and a defensive perspective. Now however, is the <span
+          class="italic">most</span
+        > important reason why you practice jiu jitsu. Jiu jitsu <span
+          class="italic">changes you</span
+        >.
+      </p>
+
+      <br />
+
+      <p>
+        Jiu jitsu is a practice that allows you to face your fears. Over and
+        over, day after day. Eventually you learn to be comfortable when
+        experiencing fear. You learn to breathe. To focus on your next move. To
+        relax.
+      </p>
+
+      <br />
+
+      <p>
+        By <LinkButton href="https://joshuajones.io/" newTab={true}>
+          Joshua Jones
+        </LinkButton>
+      </p>
+
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
