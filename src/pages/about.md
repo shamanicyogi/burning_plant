@@ -3,34 +3,27 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Kimuras and Bench is a blog for men, by men. In mainstream society, traditional masculine virtues are being demonized. Virtues such as strength, 
+aggresion, courage, and stoicism are no longer valued. 
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+As a result, young men do not know how to handle their natural urges to kill and f*ck. Instead of 
+pursuing healthy outlets such as BJJ (Jiu Jitsu), weight lifting, running, and engaging in healthy relationships, 
+men are turning to video games, and other online distractions to alleviate their primal urges. 
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+This may work temporarily, but it is 
+masking the problem and not getting to the root cause of the discontent and lack of
+purpose that many men feel in modern times.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+## Mission
 
-## Tech Stack
+We hope to inspire you to step
+into the greatest version of yourself. We want to inspire you to build, create, f*ck, fight,
+and kill anything that stands between you and your goals. 
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+At the same time, we aim to 
+impart you with the stoic wisdom that zen masters have known about for eons, chiefly, that
+although we must pursue our goals, ultimately we cannot be attached to them.
 
-## Features
+## Contact
 
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Feedback or suggestions: [submit here](mailto:mrjoshuajones@protonmail.com).
