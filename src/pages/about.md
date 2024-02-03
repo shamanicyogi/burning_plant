@@ -8,7 +8,7 @@ aggresion, courage, and stoicism are no longer valued.
 
 As a result, young men do not know how to handle their natural urges to kill and f*ck. Instead of 
 pursuing healthy outlets such as BJJ (Jiu Jitsu), weight lifting, running, and engaging in healthy relationships, 
-men are turning to video games, and other online distractions to alleviate their primal urges. 
+men are instead turning to video games, and other online distractions to alleviate their primal urges. 
 
 This may work temporarily, but it is 
 masking the problem and not getting to the root cause of the discontent and lack of
@@ -27,3 +27,4 @@ although we must pursue our goals, ultimately we cannot be attached to them.
 ## Contact
 
 Feedback or suggestions: [submit here](mailto:mrjoshuajones@protonmail.com).
+
