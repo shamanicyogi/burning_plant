@@ -26,12 +26,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Modal id="dialog" open="Open modal">
     <main id="main" slot="main">
       <div class="inner-container">
-        <div>
-          <Image
-            src={localJitzImage}
-            alt="Two men pracitsicing Jiu Jitsu."
-            style={{ height: "500px", opacity: 0.3 }}
-          />
+        <div class="image-container">
+          <Image src={localJitzImage} alt="Two men pracitsicing Jiu Jitsu." />
           <h2 class="header">Join the Newsletter</h2>
           <p class="description">
             Subscribe to get exclusive content by email.
