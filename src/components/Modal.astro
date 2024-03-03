@@ -1,177 +1,23 @@
 ---
-const { id, open } = Astro.props;
+import ModalWrapper from "@components/ModalWrapper.astro";
+import { Image } from "astro:assets";
+import localJitzImage from "../assets/images/jitz.jpg";
 ---
 
-<style>
-  dialog {
-    background: #000;
-    overflow: auto;
-    width: 80%;
-    max-width: 601px;
-    margin: auto;
-    height: 65vh;
-    position: relative;
+<ModalWrapper id="dialog" open="Open modal">
+  <main id="main" slot="main">
+    <div class="inner-container">
+      <div class="image-container">
+        <Image src={localJitzImage} alt="Two men pracitsicing Jiu Jitsu." />
+        <h2 class="header">Join the Newsletter</h2>
+        <p class="description">Subscribe to get exclusive content by email.</p>
+      </div>
 
-    &::backdrop {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
-
-    /* Mobile */
-    @media (max-width: 768px) {
-      height: 75vh;
-      width: 90%;
-    }
-
-    /* Small Tablet */
-    @media (min-width: 769px) and (max-width: 820px) {
-      height: 55vh;
-    }
-
-    /* Tablet */
-    @media (min-width: 821px) and (max-width: 1024px) {
-      height: 50vh;
-    }
-
-    /* Landscape Tablet */
-    @media (orientation: landscape) and (max-width: 1180px) {
-      height: 80vh;
-    }
-
-    /* Height Constraints */
-    @media (max-height: 800px), (min-height: 601px) and (max-height: 800px) {
-      height: 75vh;
-    }
-
-    main {
-      background: #000;
-      .inner-container {
-        background: #333;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        max-height: 500px;
-
-        @media (max-height: 800px),
-          (min-height: 601px) and (max-height: 800px) {
-          height: 350px;
-        }
-
-        img {
-          height: 500px;
-          opacity: 0.3;
-
-          @media (max-height: 800px),
-            (min-height: 601px) and (max-height: 800px) {
-            height: 350px;
-          }
-        }
-
-        .header {
-          color: white;
-          position: absolute;
-          top: 35%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 48px;
-          text-align: center;
-          font-weight: bold;
-          text-transform: uppercase;
-
-          @media (max-height: 800px) {
-            font-size: 42px;
-          }
-        }
-
-        .description {
-          color: white;
-          position: absolute;
-          top: 70%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 24px;
-          width: 85%;
-          text-align: center;
-
-          @media (max-height: 800px) {
-            font-size: 22px;
-            margin-top: 20px;
-          }
-        }
-
-        .form-container {
-          display: flex;
-          flex-direction: column;
-          padding: 20px 0;
-          width: 85%;
-          margin: auto;
-
-          .email-input {
-            margin: 0;
-            padding: 0;
-            border: none;
-            outline: none;
-            background: white;
-            height: 40px;
-            font-family: inherit;
-            font-size: inherit;
-            color: inherit;
-            text-align: left;
-            line-height: normal;
-            padding-left: 10px;
-          }
-
-          .submit-button {
-            width: 100px;
-            margin-top: 20px;
-            height: 40px;
-            background: #333;
-            color: #fff;
-          }
-        }
-      }
-    }
-
-    .close-button {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      font-weight: bold;
-      color: white;
-    }
-  }
-</style>
-
-<script>
-  // Trigger modal on DOM load
-  document.addEventListener("DOMContentLoaded", function () {
-    // Your code here, which will run when the entire document has been loaded
-    console.log("Document is loaded!");
-    setTimeout(() => window["dialog"].showModal(), 0 /* 3000 */);
-  });
-
-  // Add click outside of modal
-  const closeButton = document.querySelector(".close-button");
-
-  document.addEventListener("click", function (event) {
-    // console.log("clicked", dialogElement.id, event.target.id);
-    if (event.target.id === "dialog") closeButton.click();
-
-    // Check if the clicked element has the class "close-button"
-    // if (event.target.classList.contains("close-button")) {
-    //   // If yes, trigger a click on the button
-
-    // if (!event.target.closest("#dialog")) closeButton.click();
-    // }
-  });
-</script>
-
-<dialog id={id}>
-  <slot name="main" />
-  <form method="dialog">
-    <slot name="close" />
-  </form>
-</dialog>
+      <form class="form-container">
+        <input class="email-input" placeholder="Email Address" />
+        <button class="submit-button">Subscribe</button>
+      </form>
+    </div>
+  </main>
+  <button class="close-button" slot="close">X</button>
+</ModalWrapper>
