@@ -158,22 +158,27 @@ const { id, open } = Astro.props;
   });
 
   // Listen for 'Submit' click
-  // async function submit(e: SubmitEvent) {
-  //   e.preventDefault();
-  //   const formData = new FormData(e.target as HTMLFormElement);
-  //   const response = await fetch("/api/mailchimp", {
-  //     method: "POST",
-  //     body: formData,
-  //   });
-  //   const data = await response.json();
-  // }
+  async function submit(email: string) {
+    console.log("CALLED", email);
+    const response = await fetch("/api/mailchimp", {
+      method: "POST",
+      // body: JSON.stringify({
+      //   email,
+      // }),
+    });
+    // const data = await response.json();
+    // console.log(data);
+  }
 
-  // const emailInput = document.querySelector(".email-input");
-  // const submitButton = document.querySelector(".submit-button");
-  // submitButton.addEventListener("click", () => {
-  //   submit(emailInput.value);
-  //   console.log("Hello, on client", emailInput.value);
-  // });
+  const emailInput = document.querySelector(".email-input");
+  const submitButton = document.querySelector(".submit-button");
+  submitButton.addEventListener("click", async () => {
+    try {
+      await submit(emailInput?.value);
+    } catch (e) {
+      console.log(e, "ERRRR");
+    }
+  });
 </script>
 
 <dialog id={id}>

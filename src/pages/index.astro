@@ -10,8 +10,6 @@ import Modal from "@components/Modal.astro";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
-import { Image } from "astro:assets";
-import localJitzImage from "../assets/images/jitz.jpg";
 
 const posts = await getCollection("blog");
 
@@ -23,26 +21,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
-  <Modal id="dialog" open="Open modal">
-    <main id="main" slot="main">
-      <div class="inner-container">
-        <div class="image-container">
-          <Image src={localJitzImage} alt="Two men pracitsicing Jiu Jitsu." />
-          <h2 class="header">Join the Newsletter</h2>
-          <p class="description">
-            Subscribe to get exclusive content by email.
-          </p>
-        </div>
-
-        <div class="form-container">
-          <input class="email-input" placeholder="Email Address" />
-          <button class="submit-button">Subscribe</button>
-        </div>
-      </div>
-    </main>
-    <button class="close-button" slot="close">X</button>
-  </Modal>
-
+  <Modal />
   <Header />
   <main id="main-content">
     <section id="hero">
@@ -204,3 +183,4 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply my-8 text-center;
   }
 </style>
+@components/Form
