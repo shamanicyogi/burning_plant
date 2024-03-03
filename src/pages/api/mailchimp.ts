@@ -2,44 +2,41 @@ import type { APIRoute } from "astro";
 import mailchimp from "@mailchimp/mailchimp_marketing";
 
 export const POST: APIRoute = async ({ request }) => {
-    const mailChimpAPIKey = import.meta.env.MAILCHIMP_API_KEY;
-    const mailChimpServer = import.meta.env.MAILCHIMP_SERVER;
+    const APIKey = import.meta.env.MAILCHIMP_API_KEY;
+    const server = import.meta.env.MAILCHIMP_SERVER;
+    const listId = import.meta.env.MAILCHIMP_LIST_ID;
     const email = JSON.parse(await request.text()).email;
 
-    console.log(mailChimpAPIKey, mailChimpServer, email)
+    console.log(APIKey, server, email)
 
     mailchimp.setConfig({
-        apiKey: mailChimpAPIKey,
-        server: mailChimpServer,
+        apiKey: APIKey,
+        server: server,
     });
 
+    const subscribingUser = {
+        firstName: "",
+        lastName: "",
+        email,
+    };
 
     async function run() {
-        const response = await mailchimp.ping.get();
-        console.log(response);
-      }
-      
-      run();
+        const response = await mailchimp.lists.addListMember(listId, {
+            email_address: subscribingUser.email,
+            status: "subscribed",
+            merge_fields: {
+            FNAME: subscribingUser.firstName,
+            LNAME: subscribingUser.lastName
+            }
+        });
+    }
 
-//   const data = await request.formData();
-//   const name = data.get("name");
-//   const email = data.get("email");
-//   const message = data.get("message");
-//   // Validate the data - you'll probably want to do more than this
-//   if (!name || !email || !message) {
-//     return new Response(
-//       JSON.stringify({
-//         message: "Missing required fields",
-//       }),
-//       { status: 400 }
-//     );
-//   }
-  // Do something with the data, then return a success response
+    run();
 
-  return new Response(
-    JSON.stringify({
-      message: "Success!"
-    }),
-    { status: 200 }
-  );
+    return new Response(
+        JSON.stringify({
+        message: "Success!"
+        }),
+        { status: 200 }
+    );
 };
