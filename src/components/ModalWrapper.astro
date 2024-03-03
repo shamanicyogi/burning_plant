@@ -159,8 +159,6 @@ const { id, open } = Astro.props;
 
   // Listen for 'Submit' click
   async function submit(email: string) {
-    console.log("CALLED", email);
-
     function isValidEmail(email: string) {
       // Regular expression for basic email validation
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -175,11 +173,9 @@ const { id, open } = Astro.props;
         body: JSON.stringify({
           email,
         }),
-      });
-      const data = await response.json();
-      console.log(data);
+      }).catch();
     } else {
-      throw new Error("Email is invalid");
+      console.log("Invalid email.");
     }
   }
 
@@ -188,8 +184,8 @@ const { id, open } = Astro.props;
   submitButton.addEventListener("click", async () => {
     try {
       await submit(emailInput?.value);
-    } catch (e) {
-      console.log(e, "ERRRR");
+    } catch (error) {
+      throw new Error((error as Error).message);
     }
   });
 </script>
