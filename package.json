@@ -18,6 +18,7 @@
     "@astrojs/check": "^0.4.1",
     "@astrojs/rss": "^4.0.2",
     "@resvg/resvg-js": "^2.6.0",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "astro": "^4.2.1",
     "fuse.js": "^7.0.0",
     "github-slugger": "^2.0.0",

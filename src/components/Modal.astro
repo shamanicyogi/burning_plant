@@ -1,0 +1,149 @@
+---
+const { id, open } = Astro.props;
+---
+
+<style>
+  dialog {
+    background: #000;
+    overflow: auto;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    height: 65vh;
+
+    &::backdrop {
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      height: 75vh; /* Adjust the height for mobile devices */
+      width: 90%;
+    }
+
+    /* Tablet */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      height: 50vh; /* Adjust the height for tablets */
+    }
+
+    /* Media query for devices with a horizontal orientation (landscape) */
+    @media (orientation: landscape) and (max-width: 1024px) {
+      height: 80vh;
+    }
+
+    main {
+      background: #000;
+      position: relative;
+
+      .inner-container {
+        background: #333;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        max-height: 500px;
+
+        @media (max-height: 600px) {
+          max-height: 250px;
+          height: 250px;
+          overflow: hidden;
+        }
+
+        .header {
+          color: white;
+          position: absolute;
+          top: 35%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 48px;
+          text-align: center;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .description {
+          color: white;
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 24px;
+          width: 85%;
+          text-align: center;
+        }
+
+        .form-container {
+          display: flex;
+          flex-direction: column;
+          padding: 20px 0 20px 0;
+          width: 85%;
+          margin: auto;
+
+          .email-input {
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+            background: white;
+            height: 40px;
+            font-family: inherit;
+            font-size: inherit;
+            color: inherit;
+            text-align: left;
+            line-height: normal;
+            padding-left: 10px;
+          }
+
+          .submit-button {
+            width: 100px;
+            margin-top: 20px;
+            height: 40px;
+            background: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+</style>
+
+<script>
+  // Trigger modal on DOM load
+  document.addEventListener("DOMContentLoaded", function () {
+    // Your code here, which will run when the entire document has been loaded
+    console.log("Document is loaded!");
+    setTimeout(() => window["dialog"].showModal(), 0 /* 3000 */);
+  });
+
+  // Add click outside of modal
+  const closeButton = document.querySelector(".close-button");
+
+  document.addEventListener("click", function (event) {
+    // console.log("clicked", dialogElement.id, event.target.id);
+    if (event.target.id === "dialog") closeButton.click();
+
+    // Check if the clicked element has the class "close-button"
+    // if (event.target.classList.contains("close-button")) {
+    //   // If yes, trigger a click on the button
+
+    // if (!event.target.closest("#dialog")) closeButton.click();
+    // }
+  });
+</script>
+
+<dialog id={id}>
+  <slot name="main" />
+  <form method="dialog">
+    <slot name="close" />
+  </form>
+</dialog>
