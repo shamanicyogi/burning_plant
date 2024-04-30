@@ -4,12 +4,12 @@ pubDatetime: 2024-01-28T16:11:06.768Z
 title: Why you Should Practice Jiu Jitsu
 slug: "why-you-should-practice-jiu-jitsu"
 featured: true
-ogImage: ../../assets/images/AstroPaper-v4.png
+ogImage: ../../assets/images/jitz.jpg
 tags:
   - bjj
   - jiu jitsu
   - grappling
-description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging experience."
+description: "Why we should all practice Jiu Jitsu."
 ---
 
 Sure, learning to pin someone, isolate their limbs and snap them one by one is super cool. It’s also really cool knowing you have the power to strangle another man unconscious with your bare hands. 
@@ -27,4 +27,4 @@ See you on the mats!
 Oss!
 
 [Joshua Jones](https://joshuajones.io) <br/>
-Philosopher, Coder, Entrepreneur
+Grappling Philosopher

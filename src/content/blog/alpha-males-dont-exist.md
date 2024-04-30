@@ -4,7 +4,7 @@ pubDatetime: 2024-02-10T18:16:04.768Z
 title: Alpha males don’t exist (and other bullshit the culture wants you to believe)
 slug: "alpha-males-dont-exist"
 featured: true
-ogImage: ../../assets/images/AstroPaper-v4.png
+ogImage: ../../assets/images/jitz.jpg
 tags:
   - bjj
   - jiu jitsu
@@ -61,4 +61,4 @@ Alpha males are loving. In “Kings Warrior, Magisin, lover” Moore describes h
 
 
 [Joshua Jones](https://joshuajones.io) <br/>
-Philosopher, Coder, Entrepreneur
+Grappling Philosopher
