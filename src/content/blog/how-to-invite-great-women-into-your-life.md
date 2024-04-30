@@ -13,7 +13,7 @@ description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging 
 
 ## Introduction
 
-![Image of man and woman](../../assets/images/dating.jpeg)
+`![Image of man and woman](../../assets/images/dating.jpeg)`
 
 This article is inspired by Dr. Robert Glover’s, “Dating Essentials for Men” (DEFM). In DEFM, Glover explains that in order to attract and create a healthy, satisfying relationship, we have to know what we want. Knowing what we want is the first step in creating the life we want and inviting really great women into that life.
 
