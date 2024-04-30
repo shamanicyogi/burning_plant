@@ -13,13 +13,13 @@ description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging 
 
 ## Introduction
 
-`![Image of man and woman](../../assets/images/dating.jpeg)`
+![Image of man and woman](../../assets/images/dating.jpeg)
 
 This article is inspired by Dr. Robert Glover’s, “Dating Essentials for Men” (DEFM). In DEFM, Glover explains that in order to attract and create a healthy, satisfying relationship, we have to know what we want. Knowing what we want is the first step in creating the life we want and inviting really great women into that life.
 
-So the first step is gaining clarity; Dr. Glover suggests that we make two lists. The first should outline five or more things that we are looking for in a partner. Think trustworthy, honest, reliable, great sense of humour, etc. These are *non-negotiables*.
+So the first step is gaining clarity; Dr. Glover suggests that we make two lists. The first should outline five or more things that we are looking for in a partner. Think trustworthy, honest, reliable, great sense of humour, etc. These are _non-negotiables_.
 
-Glover then invites us to create a second list of things that we *do not* want in a partner. These may include traits such as dishonesty, addictions, an inability to remain faithful, etc.
+Glover then invites us to create a second list of things that we _do not_ want in a partner. These may include traits such as dishonesty, addictions, an inability to remain faithful, etc.
 
 It’s okay if these two lists are mirror opposites of each other, this will just help us gain more clarity.
 
@@ -29,9 +29,11 @@ A really great woman is a woman who meets all of the traits listed on your posit
 
 A good woman would be a woman who maybe has three out of five of the traits you’re looking for. This is an indicator that while she may be a good woman, she’s not the woman for you. You should let her go. Glover states that you will meet and separate from a lot of good woman. This is normal, especially if you’re living at your edge and putting yourself out there. Don’t let this bother you.
 
-Okay, so without further ado, here are 5 tips to help you invite great women into your life. 
+Okay, so without further ado, here are 5 tips to help you invite great women into your life.
 
 ## Create Space
+
+![Ocean wave hitting the shore on a beach](../../assets/images/ocean.jpeg)
 
 If you want to invite a great woman or great women into your life, you have to have to create space for these women.
 
@@ -42,6 +44,8 @@ If you are involved with a woman who is not exactly what you’re looking for bu
 Learn to let go and trust.
 
 ## Break bad habits
+
+![Person smoking cigarette](../../assets/images/cigarette.jpeg)
 
 If you’re dopamine addicted, feeling lethargic and shameful, you won’t have the energy, drive, or desire to engage with the great women that surround you.
 
@@ -58,27 +62,27 @@ The following books can really help:
 
 If you’re often feeling shameful, down, depressed, or any other negative emotion, you may be spending your energy just trying to feel better. It’s not wonder that you have no “mojo” or no energy left over to put yourself out there.
 
-Once your dopamine addictions are healed and the shame is lifted, you will find that you have an *abundance* of energy - energy that you can use to improve yourself, pursue meaningful passions, and interact with people, including great women. 
+Once your dopamine addictions are healed and the shame is lifted, you will find that you have an _abundance_ of energy - energy that you can use to improve yourself, pursue meaningful passions, and interact with people, including great women.
 
 ## Let go of good women
 
 As mentioned at the beginning of this article, we can classify the women we meet as good, great, or wrong women for you. Think of this as a fit, it is nothing against the women personally.
 
-Remember, a good woman is not a great woman. Oftentimes we men will settle because she’s “okay.” It’s easy, the sex is convenient, she doesn’t expect much. But deep down, there’s a nagging feeling that *we know she’s not the one*. Now, I’m not saying perfect women exist, because they don’t; but what I am saying is that usually we know when a woman is a good fit for us or not, and we choose to ignore this a lot of times out of convenience, laziness, or a fear of hurting the feelings of the woman we are involved with.
+Remember, a good woman is not a great woman. Oftentimes we men will settle because she’s “okay.” It’s easy, the sex is convenient, she doesn’t expect much. But deep down, there’s a nagging feeling that _we know she’s not the one_. Now, I’m not saying perfect women exist, because they don’t; but what I am saying is that usually we know when a woman is a good fit for us or not, and we choose to ignore this a lot of times out of convenience, laziness, or a fear of hurting the feelings of the woman we are involved with.
 
 You’ve got to be okay with being seen as a jerk. Remember, she’ll get over the breakup a lot faster than you. She’ll probably find another guy faster than you’ll find another gal. Allow her to project the “asshole” vibe onto you if necessary. As long as you’re moving forward with integrity and honesty, breaking up can actually be a loving act.
 
-Here are some scenarios I’ve encountered where the woman was a good woman, but she wasn’t *my* really great woman:
+Here are some scenarios I’ve encountered where the woman was a good woman, but she wasn’t _my_ really great woman:
 
-- She’s easy, she’s caring, she’s almost got it all, ***but*** I’m just not that into her. I.e. there’s no sexual spark
+- She’s easy, she’s caring, she’s almost got it all, **_but_** I’m just not that into her. I.e. there’s no sexual spark
 - She’s got good morals and values, but she’s boring
 - There’s a great emotional connection but not physical connection
 
-You can see that there is some crossover between these points. I’ve personally struggled with this issue but I’ve learned that you need both. You need the emotional and physical connection. I want to look at my woman and think *wow*, she’s beautiful - I also want to feel that we have a connection and that I can *relax* *into her*.
+You can see that there is some crossover between these points. I’ve personally struggled with this issue but I’ve learned that you need both. You need the emotional and physical connection. I want to look at my woman and think _wow_, she’s beautiful - I also want to feel that we have a connection and that I can _relax_ _into her_.
 
 ## Be Great Yourself
 
-We attract what we are. If you want to attract really great women, you have to be a *really great man*. 
+We attract what we are. If you want to attract really great women, you have to be a _really great man_.
 
 If you are out of shape, broke, living at your parent’s house, how do you expect a great woman to find you attractive?
 
@@ -90,7 +94,7 @@ Begin by:
 
 ### Acquiring a skill set
 
-Programming, marketing, product management, a trade - it doesn’t really matter *what* skill you choose to pursue; you just have to choose something.
+Programming, marketing, product management, a trade - it doesn’t really matter _what_ skill you choose to pursue; you just have to choose something.
 
 All men should be on the path to mastery. Mastering a skill set gives you power. Power gives you access to resources and opportunities. All of this will make you more attractive.
 
@@ -98,7 +102,7 @@ All men should be on the path to mastery. Mastering a skill set gives you power.
 
 Bodybuilding here doesn’t mean you need to be stage-ready for the Olympia. No. But you should be in shape. You should have a decent degree of muscle mass. You should have good cardiovascular health and stamina.
 
-Fit people tend to gravitate towards fit people; loud people towards loud people, etc. 
+Fit people tend to gravitate towards fit people; loud people towards loud people, etc.
 
 Being fit, strong, and healthy will make you feel good. Feeling good will increase your confidence. Increasing your confidence will make you more attractive.
 
