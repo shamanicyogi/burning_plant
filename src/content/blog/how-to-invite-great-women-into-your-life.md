@@ -4,11 +4,11 @@ pubDatetime: 2024-04-30T09:51:06.768Z
 title: How to Invite Great Women into your Life
 slug: "how-to-invite-great-women-into-your-life"
 featured: true
-ogImage: ../../assets/images/dating.jpeg
+ogImage: dating
 tags:
   - dating
   - self improvment
-description: "AstroPaper v4: ensuring a smoother and more feature-rich blogging experience."
+description: "If you want to attract great women, you must become a great man!"
 ---
 
 ## Introduction
