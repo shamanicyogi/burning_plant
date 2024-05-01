@@ -16,7 +16,7 @@ tags:
   - growth mindset
   - bravery
 
-description: "Alpha males don’t exist (and other bullshit the culture wants you to believe)"
+description: "I’m sure you’ve felt it. When that confident man walks into the room; you feel his presence..."
 ---
 
 # Alpha Males don’t Exist (and other bullshit the culture wants you to believe)
