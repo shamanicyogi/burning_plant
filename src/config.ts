@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://kimurasandbenchpress.com/",
   author: "Joshua Jones",
-  desc: "A blog, for men, by men. We discuss career success, training BJJ, lifting weight, the mental benefits of jiu jitsu, and philosophy.",
-  title: "Kimuras and Bench",
+  desc: "A community for ganja yoga enthusiasts.",
+  title: "Plant and Flame",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
