@@ -3,7 +3,7 @@ import Datetime from "./Datetime";
 import type { CollectionEntry } from "astro:content";
 import "./Card.css";
 // import all images for articles
-// no easy way to do dynamic imports
+// no easy way to pass image path to <img> tag
 import jitz from "../assets/images/jitz.jpg";
 import dating from "../assets/images/dating.jpeg";
 import alpha_statue from "../assets/images/alpha_statue.jpeg";
@@ -12,6 +12,7 @@ const THUMBNAILS = {
   jitz,
   dating,
   alpha_statue,
+  "": alpha_statue,
 };
 
 export interface Props {
@@ -30,7 +31,13 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
   return (
     <li className="card-container my-6">
-      <img className="card-image" src={THUMBNAILS[ogImage]?.src} />
+      <img
+        className="card-image"
+        src={
+          THUMBNAILS[(ogImage as keyof Omit<typeof THUMBNAILS, "''">) || ""]
+            ?.src
+        }
+      />
       <div>
         <a
           href={href}
