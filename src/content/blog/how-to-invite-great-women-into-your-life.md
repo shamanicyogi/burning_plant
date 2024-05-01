@@ -1,157 +1,128 @@
 ---
 author: Joshua Jones
 pubDatetime: 2024-04-30T09:51:06.768Z
-title: How to Invite Great Women into Your Life
-slug: "how-to-invite-great-women-into-your-life"
+title: What is Cannabis Enhanced Yoga
+slug: "what-is-cannabis-enhanced-yoga"
 featured: true
-ogImage: dating
+ogImage: yoga_forest
 tags:
-  - dating
-  - self improvment
-description: "If you want to attract great women, you must become a great man!"
+  - cannabis
+  - marijuana
+  - weed
+  - ganja
+  - pot
+  - yoga
+  - subconscious mind
+  - subconscious programming
+description: "Learn all about cannabis enhanced yoga and how it can change your life!"
 ---
 
-## Introduction
+# **What is Cannabis Enhanced Yoga 🍃**
 
-![Image of man and woman](../../assets/images/dating.jpeg)
+Cannabis enhanced yoga is an ancient ritual that has been practiced for thousands of years.
 
-This article is inspired by Dr. Robert Glover’s, “Dating Essentials for Men” (DEFM). In DEFM, Glover explains that in order to attract and create a healthy, satisfying relationship, we have to know what we want. Knowing what we want is the first step in creating the life we want and inviting really great women into that life.
+To understand cannabis enhanced yoga we must first understand what yoga is.
 
-So the first step is gaining clarity; Dr. Glover suggests that we make two lists. The first should outline five or more things that we are looking for in a partner. Think trustworthy, honest, reliable, great sense of humour, etc. These are _non-negotiables_.
+**Yoga is not just stretching or exercise**. The literal translation of yoga means to “yoke” or *to bring together.*
 
-Glover then invites us to create a second list of things that we _do not_ want in a partner. These may include traits such as dishonesty, addictions, an inability to remain faithful, etc.
+What we do in a yoga class are called “asanas,” or postures. This sequence of postures was actually created to prepare the body and mind for meditation.
 
-It’s okay if these two lists are mirror opposites of each other, this will just help us gain more clarity.
+Herein, we see an interesting connection, the connection between body and mind.
 
-The concept of a great woman, or a really great woman comes into play after you have your two lists.
+Ask yourself, why would we need to “prepare the body” for meditation. It’s because the body is a reflection of the mind. Or taking it a step further, the body *is the mind*.
 
-A really great woman is a woman who meets all of the traits listed on your positive list and has none of the traits on your negative list.
+![yoga_forest.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/15785ef6-1879-4ebf-ac07-b7b4b861687f/32742599-6c42-4491-a11c-ad125437c2f6/yoga_forest.jpeg)
 
-A good woman would be a woman who maybe has three out of five of the traits you’re looking for. This is an indicator that while she may be a good woman, she’s not the woman for you. You should let her go. Glover states that you will meet and separate from a lot of good woman. This is normal, especially if you’re living at your edge and putting yourself out there. Don’t let this bother you.
+## The Body is the Subconscious Mind
 
-Okay, so without further ado, here are 5 tips to help you invite great women into your life.
+In her [TED Talk](https://youtu.be/Ks-_Mh1QhMc?si=WpG537pW1jwcO6Z1), Amy Cuddy describes how in her role as a Harvard business professor, she noticed the stark difference in posturing between men and women.
 
-## Create Space
+For example, she tells us how men would come into the class and take up a lot of space; they would sprawl out in their chair, take up a lot of room, and raise their hands high when answering questions.
 
-![Ocean wave hitting the shore on a beach](../../assets/images/ocean.jpeg)
+Women in contrast were typically the opposite; they would make themselves smaller. They would keep their heads down and be slightly slumped over. When answering questions, they would timidly raise their hands.
 
-If you want to invite a great woman or great women into your life, you have to have to create space for these women.
+Cuddy goes on to explain that in nature, “non-verbal expressions of dominance” or *power posturing* is about making yourself big, taking up space, and opening up.
 
-Space in this context can mean literal physical space, i.e. you need to have your own place. But space can also mean emotional space.
+She then shows several examples from the animal kingdom of mammals, non-mammals, and humans in dominant or powerful positions. In these pictures, the subjects are all taking up a lot of space, *they are open*, chest up, head up, and arms wide or overhead.
 
-If you are involved with a woman who is not exactly what you’re looking for but you’re keeping her around out of convenience or laziness, then your not opening up space for a really great woman to step into your life.
+The opposite of this, is making oneself smaller. Just think of a depressed person. What kind of posture do they typically have?
 
-Learn to let go and trust.
+That’s right, head down, shoulders slumped, *they are making themselves smaller*.
 
-## Break bad habits
+![depressed.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/15785ef6-1879-4ebf-ac07-b7b4b861687f/effb81a0-0d8e-4777-b226-91cdf67fbe0e/depressed.jpeg)
 
-![Person smoking cigarette](../../assets/images/cigarette.jpeg)
+(Depressed, closed posture.)
 
-If you’re dopamine addicted, feeling lethargic and shameful, you won’t have the energy, drive, or desire to engage with the great women that surround you.
+![success.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/15785ef6-1879-4ebf-ac07-b7b4b861687f/f7eca2cd-0873-437e-bad5-bc0e23a78bcf/success.jpeg)
 
-Energy is a scare resource. Motivation is also a scare resource. Dopamine is a chemical that helps motivate us. It’s the anticipation feeling. Scrolling social media, eating sugary junk food, and watching “pron” give us cheap dopamine hits. If our brain thinks we already bedded several women, have high status within the tribe, and that we’re well fed, well then what motivation is it going to have to go out there and conquer?
+(Confident, open posture.)
 
-You’ve got to break these habits. Mindfulness meditation and yoga can help. These things are wired into our nervous system. We have to retrain ourselves, and change who we are, how we behave, and how we show up in the world, both physically and emotionally.
+## Change the Body, Change the Mind
 
-The following books can really help:
+There is a famous [study](https://www.sciencedaily.com/releases/2019/04/190412094728.htm) that has proven that holding a pencil in your mouth for 60 seconds can make you feel happier. This works because *it forces you to smile*.
 
-- No More Mr. Nice Guy - Dr. Robert Glover
-- Dating Essentials for Men - Dr. Robert Glover
-- PMO Hackbook
-- Brain Over Binge
+Cuddy takes this concept further and changes not just the position of the mouth, but the posture of the entire body.
 
-If you’re often feeling shameful, down, depressed, or any other negative emotion, you may be spending your energy just trying to feel better. It’s not wonder that you have no “mojo” or no energy left over to put yourself out there.
+Cuddy explains how she wanted to address the issue described earlier where her female business students were not doing well in class due to a lack of confidence (competitive business is graded on participation and these women were holding back and therefore not participating as much as the men).
 
-Once your dopamine addictions are healed and the shame is lifted, you will find that you have an _abundance_ of energy - energy that you can use to improve yourself, pursue meaningful passions, and interact with people, including great women.
+In her words, she wanted to find out if “our nonverbals govern how we think and feel about ourselves.” In other words, does our posture affect our emotional and mental landscape?
 
-## Let go of good women
+It turns out that it does! Cuddy shares the results of a study she conducted where her subjects held a power pose for two minutes. Her subjects took up a lot of space and opened themselves up.
 
-As mentioned at the beginning of this article, we can classify the women we meet as good, great, or wrong women for you. Think of this as a fit, it is nothing against the women personally.
+High testosterone and low cortisol are associated with high power; these are the two markers Cuddy used to measure the results of her study.
 
-Remember, a good woman is not a great woman. Oftentimes we men will settle because she’s “okay.” It’s easy, the sex is convenient, she doesn’t expect much. But deep down, there’s a nagging feeling that _we know she’s not the one_. Now, I’m not saying perfect women exist, because they don’t; but what I am saying is that usually we know when a woman is a good fit for us or not, and we choose to ignore this a lot of times out of convenience, laziness, or a fear of hurting the feelings of the woman we are involved with.
+Before and after holding these power postures, the subjects had a saliva sample taken. The results are fascinating; after holding one or two of these postures for just two minutes, subjects testosterone went up by about 20% and their cortisol is decreased by about 25%.
 
-You’ve got to be okay with being seen as a jerk. Remember, she’ll get over the breakup a lot faster than you. She’ll probably find another guy faster than you’ll find another gal. Allow her to project the “asshole” vibe onto you if necessary. As long as you’re moving forward with integrity and honesty, breaking up can actually be a loving act.
+What this implies is that there is a clear connection between the body and mind.
 
-Here are some scenarios I’ve encountered where the woman was a good woman, but she wasn’t _my_ really great woman:
+Taking this further, we can hypothesize that rather than spending 20 years in talk therapy, it may be more *efficient* to change the body in order to change *how we feel*.
 
-- She’s easy, she’s caring, she’s almost got it all, **_but_** I’m just not that into her. I.e. there’s no sexual spark
-- She’s got good morals and values, but she’s boring
-- There’s a great emotional connection but not physical connection
+The connection between body and mind is not a new concept. In her book, The Body is Your Subconscious Mind, Candace Pert says,
 
-You can see that there is some crossover between these points. I’ve personally struggled with this issue but I’ve learned that you need both. You need the emotional and physical connection. I want to look at my woman and think _wow_, she’s beautiful - I also want to feel that we have a connection and that I can _relax_ _into her_.
+“Most psychologists treat the mind as disembodied, a phenomenon with little or no connection to the physical body. Conversely, physicians treat the body with no regard to the mind or the emotions. But the body and mind are not separate, and we cannot treat one without the other.”
 
-## Be Great Yourself
+### Bioenergetics
 
-We attract what we are. If you want to attract really great women, you have to be a _really great man_.
+There is also a form of therapy called “bioenergetics” that was developed by Wilhelm Reith. “Bioenergetics is a dynamic form of therapy based on the teachings of Wilhelm Reith. It links physical pain, muscle tension, and postural disorders with state of mind, demonstrating that suppressed emotions, unhappiness, and anger can block energy flow and cause physical distress.” - Alexander Lowen.
 
-If you are out of shape, broke, living at your parent’s house, how do you expect a great woman to find you attractive?
+## Release, Rewire, Recreate
 
-She won’t. You have to work on yourself. You have build the life and create the lifestyle that you want.
+Okay so what does this all mean? I’ve provided several examples of how the body affects the mind. *The takeaway here is that we can create lasting change by changing the way we posture ourselves; by releasing subconscious holding patterns*.
 
-Becoming a great man is a package. You need to have everything in order. If you have a great career but you’re fat and sloppy, then you’re not living up to your highest potential. Similarly if you’re shredded and diced but have no job. You have to have it all.
+Clenched jaws, a clenched butt, tight hips and belly, shoulders hiked up, frowning faces, slumped posture, all of these are *chronic holding patterns* that we *unconsciously* carry in the body.
 
-Begin by:
+If we can become *aware of* these unconscious holding patterns, *we can release them*. When we release these holding patterns and *adopt a new way of posturing* we can change not only the way we feel in the present moment, but ultimately *the trajectory of our lives.*
 
-### Acquiring a skill set
+## Cannabis Helps us _Feel_
 
-Programming, marketing, product management, a trade - it doesn’t really matter _what_ skill you choose to pursue; you just have to choose something.
+So finally bringing this back to cannabis enhanced yoga, how can this practice help facilitate this process?
 
-All men should be on the path to mastery. Mastering a skill set gives you power. Power gives you access to resources and opportunities. All of this will make you more attractive.
+Ganja (weed, cannabis, pot, marijuana) makes us more aware of our bodies. It helps us become aware of the unconscious tension in our body, especially when the plant is used *with intention*.
 
-### Bodybuilding
+Pairing marijuana and yoga/movement allows us to feel, identify, and release unconscious tension in our body. The practice helps up to adopt new ways of posturing. In turn we create a new self and a new life.
 
-Bodybuilding here doesn’t mean you need to be stage-ready for the Olympia. No. But you should be in shape. You should have a decent degree of muscle mass. You should have good cardiovascular health and stamina.
+I will write about how marijuana enhances awareness of the body in another article.
 
-Fit people tend to gravitate towards fit people; loud people towards loud people, etc.
+For now I will leave you with some practical takeaways.
 
-Being fit, strong, and healthy will make you feel good. Feeling good will increase your confidence. Increasing your confidence will make you more attractive.
+## Summary
 
-### Be well read
+To summarize:
 
-No one likes a dummy. I’ve heard from several women that they may initially find a guy attractive but then he opens his mouth and kills everything.
+- The body is the subconscious mind
+- The way we position our body affects how we feel
+- Adopting powerful, open positions can have a positive effect on how we feel
+- Marijuana makes it easier to become aware of the tension in our body - it helps us relax
+- *Intentional* use of marijuana can guide our heightened awareness, leading us to make positive physical changes and therefore experience *positive mental changes*
 
-Either he presents as a beta nerd or he’s a dumb jock. You don’t want to be either.
+In another article I will explain how to go about practicing cannabis enhanced yoga.
 
-Being well read will enhance your vocabulary which will make you more articulate.
+If you’ve made it this far, thank you!
 
-You will have more topics to talk about. You will be more interesting.
+Here’s some takeaways:
 
-### Be passionate
-
-Passion is contagious. When you’re passionate about something, you’re excited. You have things going on in your life. These things are more important to you than any relationship - they bring you fulfilment.
-
-Try to do everything with passion. Cook with passion. Fuck with passion. Lift with passion.
-
-It’s inspiring. Women will notice.
-
-### Expose yourself to challenge and conflict
-
-Lastly, embrace challenge and conflict.
-
-As a high-achieving man, you should welcome challenge. You should actually seek it out. This is what ambitious men do.
-
-Setting goals and attaining them will increase your confidence.
-
-Competition increases testosterone.
-
-Some areas where you can compete:
-
-- Jiu Jitsu / grappling tournaments
-- Bodybuilding shows
-- Powerlifting meets
-- Marathons
-
-## Conclusion
-
-Men, don’t settle. You should **be keeping a list** of things you want in a woman and things you absolutely won’t accept.
-
-This will help you gain clarity and distinguish between good women, great women, and wrong women (for you).
-
-Create space in your life. Let go of old limiting beliefs, bad habits, and people who don’t fit your life.
-
-Be honest. Operate with integrity. And have faith.
-
-What is yours will find it’s way to you but you have to put yourself out there.
+- Holding a posture where you take up a lot of space will positively impact your emotional wellbeing - if you assume a physical position of power, you will have a *mental, emotional experience of power*
+- “Fake it until you *become it* - Amy Cuddy
 
 Namaste 🙏
 

@@ -4,15 +4,11 @@ import type { CollectionEntry } from "astro:content";
 import "./Card.css";
 // import all images for articles
 // no easy way to pass image path to <img> tag
-import jitz from "../assets/images/jitz.jpg";
-import dating from "../assets/images/dating.jpeg";
-import alpha_statue from "../assets/images/alpha_statue.jpeg";
+import yoga_forest from "../assets/images/yoga_forest.jpeg";
 
 const THUMBNAILS = {
-  jitz,
-  dating,
-  alpha_statue,
-  "": alpha_statue,
+  yoga_forest,
+  "": yoga_forest,
 };
 
 export interface Props {
