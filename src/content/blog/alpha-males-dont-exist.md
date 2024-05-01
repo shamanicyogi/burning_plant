@@ -1,7 +1,7 @@
 ---
 author: Joshua Jones
 pubDatetime: 2024-02-10T18:16:04.768Z
-title: Alpha males don’t exist
+title: Alpha Males don’t Exist (and other bullshit the culture wants you to believe)
 slug: "alpha-males-dont-exist"
 featured: true
 ogImage: alpha_statue
