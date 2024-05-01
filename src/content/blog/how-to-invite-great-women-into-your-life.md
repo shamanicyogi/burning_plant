@@ -1,7 +1,7 @@
 ---
 author: Joshua Jones
 pubDatetime: 2024-04-30T09:51:06.768Z
-title: How to Invite Great Women into your Life
+title: To Attract a Great Woman, Become a Great Man
 slug: "how-to-invite-great-women-into-your-life"
 featured: true
 ogImage: dating
