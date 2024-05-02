@@ -1,0 +1,120 @@
+<!-- UI -->
+<div
+  style={{
+    background: "#eee",
+    padding: "20px",
+    fontFamily: "'Inter Tight Variable', 'Adjusted Arial Fallback', 'arial'",
+    border: "1px solid #eee",
+  }}
+>
+  <div class="inner-container">
+    <div>
+      <span style={{ fontSize: "1.75rem", fontWeight: "bold", color: "black" }}>
+        Join the Waitlist
+      </span>
+      <p
+        class="mt-20"
+        style={{ color: "rgb(89 86 101 / var(--tw-text-opacity))" }}
+      >
+        Subscribe to get updates on upcoming classes, retreats, and product
+        offerings.
+      </p>
+    </div>
+
+    <form class="form-container mt-20">
+      <input
+        class="email-input"
+        placeholder="Your email address"
+        type="email"
+      />
+      <button class="submit-button disabled mt-10">Subscribe</button>
+      <span class="error-message mt-10" style="color: red; display: none;"
+        >Please enter a valid email address.</span
+      >
+      <span class="success-message mt-10" style="color: green; display: none;"
+        >Success 😎! Keep an eye on your inbox for updates!.</span
+      >
+    </form>
+  </div>
+</div>
+
+<!-- Handle email submission -->
+<script>
+  const emailInput = document.querySelector(".email-input") as unknown as any;
+  const submitButton = document.querySelector(
+    ".submit-button"
+  ) as unknown as any;
+  const errorMessage = document.querySelector(
+    ".error-message"
+  ) as unknown as any;
+  const successMessage = document.querySelector(
+    ".success-message"
+  ) as unknown as any;
+
+  // Function to handle Submit
+  async function submit(email: string) {
+    function isValidEmail(email: string) {
+      // Regular expression for basic email validation
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+
+    const validEmail = isValidEmail(email);
+
+    if (validEmail) {
+      const res = await fetch("/api/mailchimp", {
+        method: "POST",
+        body: JSON.stringify({
+          email,
+        }),
+      }).catch();
+
+      return res;
+    } else {
+      if (!errorMessage) return;
+      errorMessage.style.display = "block";
+    }
+  }
+
+  // Listen for Input in Email Field
+  emailInput.addEventListener("input", () => {
+    if (emailInput.value.trim() !== "") {
+      submitButton.classList.remove("disabled");
+      errorMessage.style.display = "none";
+    } else {
+      submitButton.classList.add("disabled");
+    }
+  });
+
+  // Listen for Submit
+  submitButton.addEventListener("click", async e => {
+    e.preventDefault();
+    try {
+      const res = await submit(emailInput?.value);
+      const { status } = res || {};
+
+      if (status === 200) {
+        successMessage.style.display = "block";
+        setTimeout(() => {
+          successMessage.style.display = "none";
+        }, 5000);
+
+        emailInput.value = "";
+
+        submitButton.classList.add("disabled");
+      }
+
+      // fix image/video
+
+      // learn more button
+
+      // lityoga.blog - ganjayogaretreats.blog
+
+      // blog layout / color
+
+      // update blogs/clean up other pages
+    } catch (error) {
+      throw new Error((error as Error).message);
+    }
+  });
+</script>

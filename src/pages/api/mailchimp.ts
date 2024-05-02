@@ -52,3 +52,13 @@ export const POST: APIRoute = async ({ request }) => {
     { status: 200 }
   );
 };
+
+// Code to get lists id
+// Swap out the run function with this to get list id
+
+// const run = async () => {
+//   const response = await mailchimp.lists.getAllLists();
+//   console.log(response, "@@@@@@@");
+// };
+
+// run();

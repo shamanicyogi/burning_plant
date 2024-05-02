@@ -10,6 +10,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
+import WaitingListForm from "@components/WaitingListForm.astro";
 
 const posts = await getCollection("blog");
 
@@ -74,6 +75,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           Shamanic Yogi
         </LinkButton>
       </p>
+
+      <br />
+
+      <WaitingListForm />
 
       {
         // only display if at least one social link is enabled

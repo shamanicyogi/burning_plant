@@ -1,10 +1,10 @@
 import { slugifyStr } from "@utils/slugify";
-import Datetime from "./Datetime";
+import Datetime from "../Datetime";
 import type { CollectionEntry } from "astro:content";
 import "./Card.css";
 // import all images for articles
 // no easy way to pass image path to <img> tag
-import yoga_forest from "../assets/images/yoga_forest.jpeg";
+import yoga_forest from "../../assets/images/yoga_forest.jpeg";
 
 const THUMBNAILS = {
   yoga_forest,
