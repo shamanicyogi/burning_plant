@@ -54,6 +54,13 @@ window.onload = () => {
     // set on load so screen readers can get the latest value on the button
     reflectPreference();
 
+    // sync with system changes
+    const prefersDarkMode = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    themeValue = prefersDarkMode ? "dark" : "light";
+    setPreference();
+
     // now this script can find and listen for clicks on the control
     document.querySelector("#theme-btn")?.addEventListener("click", () => {
       themeValue = themeValue === "light" ? "dark" : "light";
