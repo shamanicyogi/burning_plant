@@ -182,10 +182,10 @@ const { id } = Astro.props;
   });
 
   // Trigger modal on DOM load
-  document.addEventListener("DOMContentLoaded", function () {
-    // @ts-ignore
-    setTimeout(() => window["dialog"].showModal(), 3000);
-  });
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   // @ts-ignore
+  //   setTimeout(() => window["dialog"].showModal(), 3000);
+  // });
 
   // Listen for 'Close Button' click
   const closeButton = document.querySelector(".close-button");
