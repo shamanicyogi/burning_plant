@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://kimurasandbenchpress.com/",
   author: "Joshua Jones",
   desc: "A community for ganja yoga enthusiasts.",
-  title: "Plant and Flame",
+  title: "Flame and Flower",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
