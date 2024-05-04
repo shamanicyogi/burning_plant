@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Joshua Jones",
   desc: "A community for ganja yoga enthusiasts.",
   title: "Flame and Flower",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "yoga_forest.jpeg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
