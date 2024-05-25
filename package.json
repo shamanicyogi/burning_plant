@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
+    "@astrojs/partytown": "^2.1.0",
     "@astrojs/rss": "^4.0.2",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@resvg/resvg-js": "^2.6.0",
