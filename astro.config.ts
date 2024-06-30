@@ -49,6 +49,13 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    build: {
+      rollupOptions: {
+        output: {
+          entryFileNames: "[name]-[hash].js",
+        },
+      },
+    },
   },
   scopedStyleStrategy: "where",
 });
