@@ -83,48 +83,44 @@ const layoutProps = {
     </section>
 
     <!-- Isso script -->
-    <script>
-      (function () {
-        var isProduction =
-          window.location.hostname === "www.shamanicyogi.lifestyle";
-        var issoHost = isProduction
-          ? "https://www.shamanicyogi.lifestyle"
-          : "http://127.0.0.1:8080";
+    <script
+      src="http://127.0.0.1:8080/js/embed.min.js"
+      data-isso="http://127.0.0.1:8080/"
+      async></script>
 
-        var script = document.createElement("script");
-        script.src = issoHost + "/js/embed.min.js";
-        script.setAttribute("data-isso", issoHost);
-        script.async = true;
+    <!-- <script
+      src="http://127.0.0.1:8080/js/embed.min.js"
+      data-isso="http://127.0.0.1:8080/"
+      async></script> -->
 
-        document.head.appendChild(script);
-      })();
-    </script>
+    <script
+      src="https://www.shamanicyogi.lifestyle/js/embed.min.js"
+      data-isso="https://www.shamanicyogi.lifestyle/"
+      async></script>
 
-    <ul class="my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
-    </ul>
-
-    <div
-      class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
-    >
-      <button
-        id="back-to-top"
-        class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
-          <path
-            d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-          ></path>
-        </svg>
-        <span>Back to Top</span>
-      </button>
-
-      <ShareLinks />
-    </div>
+    {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
   </main>
-  <!-- <PostComments /> -->
-  <Footer />
+
+  <div
+    class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
+  >
+    <button
+      id="back-to-top"
+      class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
+        <path
+          d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+        ></path>
+      </svg>
+      <span>Back to Top</span>
+    </button>
+
+    <ShareLinks />
+  </div>
 </Layout>
+<!-- <PostComments /> -->
+<Footer />
 
 <style>
   main {
