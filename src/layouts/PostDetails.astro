@@ -73,6 +73,31 @@ const layoutProps = {
       <Content />
     </article>
 
+    <!-- Isso comments section -->
+    <section
+      id="isso-thread"
+      data-title={layoutProps.title}
+      data-isso-id={layoutProps.title}
+      style={{ margin: "80px 0 100px 0" }}
+    >
+    </section>
+
+    <!-- Script to detect localhost and set Isso URL -->
+    <script>
+      const isLocalhost =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1";
+      const issoUrl = isLocalhost
+        ? "http://127.0.0.1:8080"
+        : "https://isso.shamanicyogi.lifestyle";
+
+      const script = document.createElement("script");
+      script.src = `${issoUrl}/js/embed.min.js`;
+      script.setAttribute("data-isso", issoUrl);
+      script.async = true;
+      document.body.appendChild(script);
+    </script>
+
     <ul class="my-8">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
     </ul>
