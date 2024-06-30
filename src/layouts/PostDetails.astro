@@ -82,20 +82,22 @@ const layoutProps = {
     >
     </section>
 
-    <!-- Script to detect localhost and set Isso URL -->
+    <!-- Isso script -->
     <script>
-      const isLocalhost =
-        window.location.hostname === "localhost" ||
-        window.location.hostname === "127.0.0.1";
-      const issoUrl = isLocalhost
-        ? "http://127.0.0.1:8080"
-        : "https://isso.shamanicyogi.lifestyle";
+      (function () {
+        var isProduction =
+          window.location.hostname === "www.shamanicyogi.lifestyle";
+        var issoHost = isProduction
+          ? "https://www.shamanicyogi.lifestyle"
+          : "http://127.0.0.1:8080";
 
-      const script = document.createElement("script");
-      script.src = `${issoUrl}/js/embed.min.js`;
-      script.setAttribute("data-isso", issoUrl);
-      script.async = true;
-      document.body.appendChild(script);
+        var script = document.createElement("script");
+        script.src = issoHost + "/js/embed.min.js";
+        script.setAttribute("data-isso", issoHost);
+        script.async = true;
+
+        document.head.appendChild(script);
+      })();
     </script>
 
     <ul class="my-8">
