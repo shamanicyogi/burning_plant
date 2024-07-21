@@ -112,13 +112,12 @@ const layoutProps = {
       src="http://ec2-18-234-144-76.compute-1.amazonaws.com/isso/js/embed.min.js"
     ></script> -->
 
-    <section id="isso-thread"></section>
-
     <script
       is:inline
       src="https://comments.shamanicyogi.lifestyle/js/embed.min.js"
       data-isso="https://comments.shamanicyogi.lifestyle/isso"
       async></script>
+    <section id="isso-thread"></section>
 
     {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
   </main>
