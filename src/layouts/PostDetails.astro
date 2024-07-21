@@ -101,10 +101,23 @@ const layoutProps = {
       data-isso="http://44.215.108.206:8080/"
       async></script> -->
 
-    <script
+    <!-- <script
       is:inline
       src="http://44.215.108.206:8080/js/embed.min.js"
       data-isso="http://44.215.108.206:8080/isso"
+      async></script> -->
+    <!-- 
+    <script
+      data-isso="http://ec2-18-234-144-76.compute-1.amazonaws.com/isso/"
+      src="http://ec2-18-234-144-76.compute-1.amazonaws.com/isso/js/embed.min.js"
+    ></script> -->
+
+    <section id="isso-thread"></section>
+
+    <script
+      is:inline
+      src="http://comments.shamanicyogi.lifestyle/js/embed.min.js"
+      data-isso="http://comments.shamanicyogi.lifestyle/isso"
       async></script>
 
     {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
