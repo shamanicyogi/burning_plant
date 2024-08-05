@@ -96,6 +96,11 @@ const socialImageURL = new URL(
 
     <meta name="theme-color" content="" />
 
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' https://isso.shamanicyogi.lifestyle; object-src 'none';"
+    />
+
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
       // include google-site-verification tag in the heading
@@ -117,7 +122,7 @@ const socialImageURL = new URL(
       type="text/partytown"
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-PFNVKQPTPE"></script>
-    <script type="text/partytown">
+    <!-- <script type="text/partytown">
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -125,7 +130,7 @@ const socialImageURL = new URL(
       gtag("js", new Date());
 
       gtag("config", "G-PFNVKQPTPE");
-    </script>
+    </script> -->
 
     <!-- Mail Chimp -->
     <!-- <script id="mcjs">
