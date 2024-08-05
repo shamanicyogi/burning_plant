@@ -6,7 +6,6 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 import sentry from "@sentry/astro";
-import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,12 +20,7 @@ export default defineConfig({
       dsn: "https://91b2023e87299fcd382ad74bc5eb8330@o4506345239609344.ingest.sentry.io/4506848607272960",
       sourceMapsUploadOptions: {
         project: "kimuras_and_bench",
-        // authToken: process.env.SENTRY_AUTH_TOKEN,
-      },
-    }),
-    partytown({
-      config: {
-        forward: ["dataLayer.push"],
+        authToken: process.env.SENTRY_AUTH_TOKEN,
       },
     }),
   ],
@@ -48,13 +42,6 @@ export default defineConfig({
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
-    },
-    build: {
-      rollupOptions: {
-        output: {
-          entryFileNames: "[name]-[hash].js",
-        },
-      },
     },
   },
   scopedStyleStrategy: "where",

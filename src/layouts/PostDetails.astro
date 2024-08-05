@@ -73,75 +73,43 @@ const layoutProps = {
       <Content />
     </article>
 
-    <!-- Isso comments section -->
-    <section
-      id="isso-thread"
-      data-title={layoutProps.title}
-      data-isso-id={layoutProps.title}
-      style={{ margin: "80px 0 100px 0" }}
-    >
-    </section>
-
-    <!-- Isso script -->
-    <!-- <script
-      is:inline
-      src="http://127.0.0.1:8080/js/embed.min.js"
-      data-isso="http://127.0.0.1:8080/"
-      async></script> -->
-
-    <!-- <script
-      is:inline
-      src="https://www.shamanicyogi.lifestyle/js/embed.min.js"
-      data-isso="https://www.shamanicyogi.lifestyle/"
-      async></script> -->
-
-    <!-- <script
-      is:inline
-      src="http://44.215.108.206:8080/js/embed.min.js"
-      data-isso="http://44.215.108.206:8080/"
-      async></script> -->
-
-    <!-- <script
-      is:inline
-      src="http://44.215.108.206:8080/js/embed.min.js"
-      data-isso="http://44.215.108.206:8080/isso"
-      async></script> -->
-    <!-- 
-    <script
-      data-isso="http://ec2-18-234-144-76.compute-1.amazonaws.com/isso/"
-      src="http://ec2-18-234-144-76.compute-1.amazonaws.com/isso/js/embed.min.js"
-    ></script> -->
-
-    <!-- <script
-      is:inline
-      src="https://comments.shamanicyogi.lifestyle/js/embed.min.js"
-      data-isso="https://comments.shamanicyogi.lifestyle/isso"
-      async></script> -->
-
-    <!-- <script data-isso="/comments" src="/comments/js/embed.min.js"></script> -->
-
-    <script
-      data-isso="https://isso.shamanicyogi.lifestyle/"
-      src="https://isso.shamanicyogi.lifestyle/js/embed.min.js"></script>
-    <section id="isso-thread"></section>
-
-    <!-- <script
-      is:inline
-      data-isso="https://isso.shamanicyogi.lifestyle/"
-      src="https://isso.shamanicyogi.lifestyle/js/embed.min.js"></script>
-    <section id="isso-thread"></section> -->
-
-    <!-- IF THIS DOESN"T WORK ADD is:inline -->
-    <!-- 
-
-    <script
-      src="https://www.shamanicyogi.lifestyle/js/embed.min.js"
-      data-isso="https://www.shamanicyogi.lifestyle/isso"></script>
-
-    <section id="isso-thread"></section> -->
-
     {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
   </main>
+
+  <h2
+    style={{
+      fontWeight: 700,
+      fontSize: "1.5em",
+      maxWidth: "48rem",
+      width: "100%",
+      margin: "auto",
+      marginBottom: "1rem",
+    }}
+  >
+    Comments
+  </h2>
+  <div
+    id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="b2528f88-ffa6-4380-be3c-5c007e2e8fd5"
+    data-page-id={layoutProps.title}
+    data-page-url={layoutProps.canonicalURL}
+    data-page-title={layoutProps.title}
+    style={{
+      background: "white",
+      border: "1px solid black",
+      margin: "auto",
+      padding: "20px",
+      width: "100%",
+      maxWidth: "48rem",
+      // padding-left: 1rem;
+      // padding-right: 1rem;
+      // padding-bottom: 3rem;
+    }}
+  >
+  </div>
+  <script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"
+  ></script>
 
   <div
     class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
@@ -158,10 +126,10 @@ const layoutProps = {
       <span>Back to Top</span>
     </button>
 
-    <ShareLinks />
+    <!-- <ShareLinks /> -->
   </div>
 </Layout>
-<!-- <PostComments /> -->
+
 <Footer />
 
 <style>
